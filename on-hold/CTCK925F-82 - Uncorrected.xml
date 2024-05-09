@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MarquisEDL version="2.0">
+   <ProcessParameters>
+      <InterplayFolder>/</InterplayFolder>
+      <ServerAttribute side="Destination" name="SUPPRESS_AAF_SEQUENCE">false</ServerAttribute>
+      <ServerAttribute side="Destination" name="INTERPLAY_HEAD_FRAME">625</ServerAttribute>
+   </ProcessParameters>
+   <FrameRate>25</FrameRate>
+   <ClipList>
+      <Clip>
+         <UID>381773734962896963</UID>
+         <Title>CTCK925F_99</Title>
+         <File>CTCK925F-99.mxf</File>
+         <CustomMetadata>
+            <CustomData name="Id">381773734962896963</CustomData>
+            <CustomData name="Aspect_ratio">16x9</CustomData>
+            <CustomData name="Audio_Format">Stereo</CustomData>
+            <CustomData name="Episode_Name">Classic Doctors (05)</CustomData>
+            <CustomData name="Episode_Title">Classic Doctors</CustomData>
+            <CustomData name="Series_Name">Classic Doctors</CustomData>
+            <CustomData name="Series_Number">5</CustomData>
+            <CustomData name="Programme_Category">INHOUSE</CustomData>
+         </CustomMetadata>
+         <Start>09:58:02:20</Start>
+         <End>10:31:25:18</End>
+         <NumberVideoTracks>1</NumberVideoTracks>
+         <NumberAudioTracks>1</NumberAudioTracks>
+      </Clip>
+   </ClipList>
+   <Sequence>
+      <UID>381773734962896963_1</UID>
+      <Title>CTCK925F-82-SourceMaterial</Title>
+      <CustomMetadata>
+         <CustomData name="Id">381773734962896963_1</CustomData>
+         <CustomData name="Aspect_ratio">16x9</CustomData>
+         <CustomData name="Audio_Format">Stereo</CustomData>
+         <CustomData name="Episode_Name">Classic Doctors (05)</CustomData>
+         <CustomData name="Episode_Title">Classic Doctors</CustomData>
+         <CustomData name="Episode_Number">82</CustomData>
+         <CustomData name="Series_Name">Classic Doctors</CustomData>
+         <CustomData name="Series_Number">5</CustomData>
+         <CustomData name="Programme_Category">INHOUSE</CustomData>
+         <CustomData name="channelGroup">Drama</CustomData>
+         <CustomData name="Grade (post edit review)">C</CustomData>
+         <CustomData name="IPP (second)">true</CustomData>
+         <CustomData name="Lower 3rd IPP (First)">true</CustomData>
+         <CustomData name="OK to DVE">true</CustomData>
+         <CustomData name="OK to V/O">true</CustomData>
+      </CustomMetadata>
+      <Start>09:58:02:20</Start>
+      <End>10:31:25:18</End>
+      <NumberVideoTracks>1</NumberVideoTracks>
+      <NumberAudioTracks>1</NumberAudioTracks>
+      <Video>
+         <Track number="1">
+            <Shot>
+               <SourceUID type="Clip">381773734962896963</SourceUID>
+               <SourceIn>09:58:02:20</SourceIn>
+               <SourceOut>10:31:25:18</SourceOut>
+            </Shot>
+         </Track>
+      </Video>
+      <Audio>
+         <Track number="1">
+            <Shot>
+               <SourceTrack>1</SourceTrack>
+               <SourceUID type="Clip">381773734962896963</SourceUID>
+               <SourceIn>09:58:02:20</SourceIn>
+               <SourceOut>10:31:25:18</SourceOut>
+            </Shot>
+         </Track>
+      </Audio>
+      <Markers>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>Doctors
+DocWatch
+TXM Matches WON</Comment>
+            <Colour>Blue</Colour>
+            <Position>00:01:47:05</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>START</Comment>
+            <Colour>White</Colour>
+            <Position>00:01:57:05</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>BBC Blocks</Comment>
+            <Colour>Green</Colour>
+            <Position>00:02:06:05</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>Channel: Drama
+Approved by: JM</Comment>
+            <Colour>Blue</Colour>
+            <Position>00:02:07:05</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>Docwatch - matches WON</Comment>
+            <Colour>Green</Colour>
+            <Position>00:02:28:19</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>Woman comes into doctors and tells nurse she believes she is menopausal. </Comment>
+            <Colour>Green</Colour>
+            <Position>00:12:04:23</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>OUT: Man in office "cheers"
+BREAK 1
+IN: Clock. [OUT]</Comment>
+            <Colour>Magenta</Colour>
+            <Position>00:14:09:09</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>OUT: Man in office "cheers"
+BREAK 1
+IN: Clock. [IN]</Comment>
+            <Colour>Magenta</Colour>
+            <Position>00:14:09:11</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>Drinking alcohol - intermittent throughout</Comment>
+            <Colour>Green</Colour>
+            <Position>00:16:32:06</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>CREDITS</Comment>
+            <Colour>Blue</Colour>
+            <Position>00:29:07:22</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>website fine to retain</Comment>
+            <Colour>Green</Colour>
+            <Position>00:29:44:16</Position>
+         </Marker>
+         <Marker>
+            <Name>UKTV_Freeway</Name>
+            <Comment>END</Comment>
+            <Colour>Black</Colour>
+            <Position>00:29:46:19</Position>
+         </Marker>
+      </Markers>
+   </Sequence>
+</MarquisEDL>
