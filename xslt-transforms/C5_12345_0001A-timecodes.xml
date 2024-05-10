@@ -1,0 +1,35 @@
+<Nucleus xmlns="http://www.redbeemedia.com/nucleus/metadata/ns/v1/standard_metadata">
+    <id:Identifiers xmlns:id="http://www.redbeemedia.com/nucleus/metadata/ns/v1/identification">
+        <id:Material_ID>C5/12345/0001A</id:Material_ID>
+    </id:Identifiers>
+    <cn:Content xmlns:cn="http://www.redbeemedia.com/nucleus/metadata/ns/v1/content">
+        <cn:Content_Type>Programme</cn:Content_Type>
+        <cn:Supplier>AVID publish to Nucleus</cn:Supplier>
+    </cn:Content>
+    <tn:Technical xmlns:tn="http://www.redbeemedia.com/nucleus/metadata/ns/v1/technical">
+        <tn:Media_File_Name>C5_12345_0001A.mxf</tn:Media_File_Name>
+        <tn:Start_Of_File>09:59:30:00</tn:Start_Of_File>
+        <tn:Duration_Of_File>00:09:32:10</tn:Duration_Of_File>
+        <tn:Frame_Rate>25</tn:Frame_Rate>
+        <tn:Video_Format>MXF-AVC-Intra</tn:Video_Format>
+        <tn:Display_Aspect_Ratio>16:9</tn:Display_Aspect_Ratio>
+    </tn:Technical>
+    <ed:Editorial xmlns:ed="http://www.redbeemedia.com/nucleus/metadata/ns/v1/editorial">
+        <ed:Title>Pip and Posy - Avid publish to Nucleus</ed:Title>
+    </ed:Editorial>
+    <sg:Segmentation xmlns:sg="http://www.redbeemedia.com/nucleus/metadata/ns/v1/segmentation">
+        <sg:Log_Tracks>
+            <sg:Log_Track>
+                <sg:Track_Type>PLAYOUT</sg:Track_Type>
+                <sg:Log_Items>
+                    <sg:Log_Item>
+                        <sg:Order>1</sg:Order>
+                        <sg:Item_Type>PART</sg:Item_Type>
+                        <sg:Mark_In>09:59:59:00</sg:Mark_In>
+                        <sg:Duration>00:09:03:09</sg:Duration>
+                    </sg:Log_Item>
+                </sg:Log_Items>
+            </sg:Log_Track>
+        </sg:Log_Tracks>
+    </sg:Segmentation>
+</Nucleus>
